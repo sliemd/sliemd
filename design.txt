@@ -1,0 +1,83 @@
+
+
+1. Figure out GitHub pages
+2. Create server with database and inputs (JSON)
+3. Establish player & first round
+4. 
+5. 
+
+
+player object/constructor
+    health
+    moves
+    gold
+    name
+    adjacent
+
+    move(player)
+
+
+
+the following are grouped under (moves)
+
+object attack
+    
+    return a double with damage dealt
+
+object defense
+
+    return a double with damage blocked
+    
+object mixedAttackDefense 
+    
+    return tuple of (double damage dealt, damage blocked) 
+
+object gameDisrupter 
+
+    no real grouping
+
+object exchange 
+    
+    return part of deck
+
+object slimed 
+
+object income
+
+
+
+
+
+Rounds
+
+    gamble(gold)
+        gold => server
+        server orders player actions in array
+
+    move(target)
+        choose action
+        determine if action is legal
+        send action & action status => server
+        gamble()
+        
+    block()
+        if (agree in HTML button)
+            determine if action is legal
+            send action & action status => server
+        else
+            send null action => server
+    
+    challenge()
+        if (agree in HTML button)
+            send action => server
+            if(legal)
+                target.health damaged
+                if (move)
+                    move == null;
+            else
+                this.health damaged
+
+    String[] order = new order[players.length];
+    
+    
+
