@@ -5,6 +5,7 @@ console.log(i);
 
 console.log("i like eating food")
 
+let x = "KEKW"
 
 
 
