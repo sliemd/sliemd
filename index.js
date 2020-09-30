@@ -7,6 +7,8 @@ console.log("i like eating food")
 
 let x = "KEKW"
 
-let t = 7;
+var thisIsATest = 123;
+
+var p = 0; 
 
 
