@@ -7,6 +7,6 @@ console.log("i like eating food")
 
 let x = "KEKW"
 
-
+let t = 7;
 
 
