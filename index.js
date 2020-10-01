@@ -19,5 +19,5 @@ let j = 0;
 
 function test() {
     j++;
-    document.getElementById.innerHTML = j;
+    document.getElementById("test").innerHTML = j;
 }
