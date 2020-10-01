@@ -11,7 +11,7 @@ var thisIsATest = 123;
 
 var myNameIsJustin = 14012891231;
 
-var p = 0; asdfasdfsadv
+var p = 0;
 
 let justin = "very weird";
 
@@ -22,3 +22,6 @@ function test() {
     document.getElementById("test").innerHTML = j + "";
 }
 
+exports.myDateTime = function() {
+    return Date();
+}
